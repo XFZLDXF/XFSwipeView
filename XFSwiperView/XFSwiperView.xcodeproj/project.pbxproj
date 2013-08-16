@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182F9B5C17BDD61B00620CE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182F9B5B17BDD61B00620CE8 /* UIKit.framework */; };
+		182F9B5E17BDD61B00620CE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182F9B5D17BDD61B00620CE8 /* Foundation.framework */; };
+		182F9B6017BDD61B00620CE8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182F9B5F17BDD61B00620CE8 /* CoreGraphics.framework */; };
+		182F9B6617BDD61C00620CE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 182F9B6417BDD61C00620CE8 /* InfoPlist.strings */; };
+		182F9B6817BDD61C00620CE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9B6717BDD61C00620CE8 /* main.m */; };
+		182F9B6C17BDD61C00620CE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9B6B17BDD61C00620CE8 /* AppDelegate.m */; };
+		182F9B6E17BDD61C00620CE8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 182F9B6D17BDD61C00620CE8 /* Default.png */; };
+		182F9B7017BDD61C00620CE8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182F9B6F17BDD61C00620CE8 /* Default@2x.png */; };
+		182F9B7217BDD61C00620CE8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182F9B7117BDD61C00620CE8 /* Default-568h@2x.png */; };
+		182F9B7517BDD61C00620CE8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182F9B7317BDD61C00620CE8 /* MainStoryboard.storyboard */; };
+		182F9B7817BDD61C00620CE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9B7717BDD61C00620CE8 /* ViewController.m */; };
+		182F9B8317BDD6A200620CE8 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9B8217BDD6A200620CE8 /* LeftViewController.m */; };
+		182F9B8617BDD6B100620CE8 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9B8517BDD6B100620CE8 /* RightViewController.m */; };
+		182F9B9717BDDA0800620CE8 /* RNDirectionPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9B8C17BDDA0800620CE8 /* RNDirectionPanGestureRecognizer.m */; };
+		182F9B9817BDDA0800620CE8 /* RNSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9B8F17BDDA0800620CE8 /* RNSwipeViewController.m */; };
+		182F9B9917BDDA0800620CE8 /* UIApplication+AppDimensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9B9217BDDA0800620CE8 /* UIApplication+AppDimensions.m */; };
+		182F9B9A17BDDA0800620CE8 /* UIView+Sizes.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9B9417BDDA0800620CE8 /* UIView+Sizes.m */; };
+		182F9B9B17BDDA0800620CE8 /* UIViewController+RNSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9B9617BDDA0800620CE8 /* UIViewController+RNSwipeViewController.m */; };
+		182F9B9D17BDDA4F00620CE8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182F9B9C17BDDA4F00620CE8 /* QuartzCore.framework */; };
+		182F9BA017BDDE4200620CE8 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9B9F17BDDE4200620CE8 /* CenterViewController.m */; };
+		18A778CF17BDE3D700FA6FDC /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A778CE17BDE3D700FA6FDC /* left@2x.png */; };
+		18A778D117BDE47000FA6FDC /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A778D017BDE47000FA6FDC /* right@2x.png */; };
+		18A778D417BDFBFC00FA6FDC /* BottomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A778D317BDFBFC00FA6FDC /* BottomViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		182F9B5817BDD61B00620CE8 /* XFSwiperView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFSwiperView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182F9B5B17BDD61B00620CE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		182F9B5D17BDD61B00620CE8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		182F9B5F17BDD61B00620CE8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		182F9B6317BDD61C00620CE8 /* XFSwiperView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XFSwiperView-Info.plist"; sourceTree = "<group>"; };
+		182F9B6517BDD61C00620CE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		182F9B6717BDD61C00620CE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		182F9B6917BDD61C00620CE8 /* XFSwiperView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XFSwiperView-Prefix.pch"; sourceTree = "<group>"; };
+		182F9B6A17BDD61C00620CE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		182F9B6B17BDD61C00620CE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		182F9B6D17BDD61C00620CE8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		182F9B6F17BDD61C00620CE8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		182F9B7117BDD61C00620CE8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		182F9B7417BDD61C00620CE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		182F9B7617BDD61C00620CE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		182F9B7717BDD61C00620CE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		182F9B8117BDD6A200620CE8 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		182F9B8217BDD6A200620CE8 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		182F9B8417BDD6B100620CE8 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RightViewController.h; path = ../RightViewController.h; sourceTree = "<group>"; };
+		182F9B8517BDD6B100620CE8 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RightViewController.m; path = ../RightViewController.m; sourceTree = "<group>"; };
+		182F9B8B17BDDA0800620CE8 /* RNDirectionPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDirectionPanGestureRecognizer.h; sourceTree = "<group>"; };
+		182F9B8C17BDDA0800620CE8 /* RNDirectionPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDirectionPanGestureRecognizer.m; sourceTree = "<group>"; };
+		182F9B8D17BDDA0800620CE8 /* RNRevealViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNRevealViewControllerProtocol.h; sourceTree = "<group>"; };
+		182F9B8E17BDDA0800620CE8 /* RNSwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSwipeViewController.h; sourceTree = "<group>"; };
+		182F9B8F17BDDA0800620CE8 /* RNSwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSwipeViewController.m; sourceTree = "<group>"; };
+		182F9B9017BDDA0800620CE8 /* RNSwipeViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSwipeViewControllerDelegate.h; sourceTree = "<group>"; };
+		182F9B9117BDDA0800620CE8 /* UIApplication+AppDimensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+AppDimensions.h"; sourceTree = "<group>"; };
+		182F9B9217BDDA0800620CE8 /* UIApplication+AppDimensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+AppDimensions.m"; sourceTree = "<group>"; };
+		182F9B9317BDDA0800620CE8 /* UIView+Sizes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Sizes.h"; sourceTree = "<group>"; };
+		182F9B9417BDDA0800620CE8 /* UIView+Sizes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Sizes.m"; sourceTree = "<group>"; };
+		182F9B9517BDDA0800620CE8 /* UIViewController+RNSwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RNSwipeViewController.h"; sourceTree = "<group>"; };
+		182F9B9617BDDA0800620CE8 /* UIViewController+RNSwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RNSwipeViewController.m"; sourceTree = "<group>"; };
+		182F9B9C17BDDA4F00620CE8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		182F9B9E17BDDE4200620CE8 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		182F9B9F17BDDE4200620CE8 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		18A778CE17BDE3D700FA6FDC /* left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left@2x.png"; sourceTree = "<group>"; };
+		18A778D017BDE47000FA6FDC /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right@2x.png"; sourceTree = "<group>"; };
+		18A778D217BDFBFC00FA6FDC /* BottomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomViewController.h; sourceTree = "<group>"; };
+		18A778D317BDFBFC00FA6FDC /* BottomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182F9B5517BDD61B00620CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182F9B9D17BDDA4F00620CE8 /* QuartzCore.framework in Frameworks */,
+				182F9B5C17BDD61B00620CE8 /* UIKit.framework in Frameworks */,
+				182F9B5E17BDD61B00620CE8 /* Foundation.framework in Frameworks */,
+				182F9B6017BDD61B00620CE8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182F9B4F17BDD61B00620CE8 = {
+			isa = PBXGroup;
+			children = (
+				18A778D217BDFBFC00FA6FDC /* BottomViewController.h */,
+				18A778D317BDFBFC00FA6FDC /* BottomViewController.m */,
+				182F9B9E17BDDE4200620CE8 /* CenterViewController.h */,
+				182F9B9F17BDDE4200620CE8 /* CenterViewController.m */,
+				182F9B9C17BDDA4F00620CE8 /* QuartzCore.framework */,
+				182F9B8A17BDDA0800620CE8 /* RNSwipeViewController */,
+				182F9B6117BDD61C00620CE8 /* XFSwiperView */,
+				182F9B5A17BDD61B00620CE8 /* Frameworks */,
+				182F9B5917BDD61B00620CE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182F9B5917BDD61B00620CE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182F9B5817BDD61B00620CE8 /* XFSwiperView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182F9B5A17BDD61B00620CE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				182F9B5B17BDD61B00620CE8 /* UIKit.framework */,
+				182F9B5D17BDD61B00620CE8 /* Foundation.framework */,
+				182F9B5F17BDD61B00620CE8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		182F9B6117BDD61C00620CE8 /* XFSwiperView */ = {
+			isa = PBXGroup;
+			children = (
+				18A778D017BDE47000FA6FDC /* right@2x.png */,
+				18A778CE17BDE3D700FA6FDC /* left@2x.png */,
+				182F9B6A17BDD61C00620CE8 /* AppDelegate.h */,
+				182F9B6B17BDD61C00620CE8 /* AppDelegate.m */,
+				182F9B7317BDD61C00620CE8 /* MainStoryboard.storyboard */,
+				182F9B7617BDD61C00620CE8 /* ViewController.h */,
+				182F9B7717BDD61C00620CE8 /* ViewController.m */,
+				182F9B8117BDD6A200620CE8 /* LeftViewController.h */,
+				182F9B8217BDD6A200620CE8 /* LeftViewController.m */,
+				182F9B8417BDD6B100620CE8 /* RightViewController.h */,
+				182F9B8517BDD6B100620CE8 /* RightViewController.m */,
+				182F9B6217BDD61C00620CE8 /* Supporting Files */,
+			);
+			path = XFSwiperView;
+			sourceTree = "<group>";
+		};
+		182F9B6217BDD61C00620CE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182F9B6317BDD61C00620CE8 /* XFSwiperView-Info.plist */,
+				182F9B6417BDD61C00620CE8 /* InfoPlist.strings */,
+				182F9B6717BDD61C00620CE8 /* main.m */,
+				182F9B6917BDD61C00620CE8 /* XFSwiperView-Prefix.pch */,
+				182F9B6D17BDD61C00620CE8 /* Default.png */,
+				182F9B6F17BDD61C00620CE8 /* Default@2x.png */,
+				182F9B7117BDD61C00620CE8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182F9B8A17BDDA0800620CE8 /* RNSwipeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				182F9B8B17BDDA0800620CE8 /* RNDirectionPanGestureRecognizer.h */,
+				182F9B8C17BDDA0800620CE8 /* RNDirectionPanGestureRecognizer.m */,
+				182F9B8D17BDDA0800620CE8 /* RNRevealViewControllerProtocol.h */,
+				182F9B8E17BDDA0800620CE8 /* RNSwipeViewController.h */,
+				182F9B8F17BDDA0800620CE8 /* RNSwipeViewController.m */,
+				182F9B9017BDDA0800620CE8 /* RNSwipeViewControllerDelegate.h */,
+				182F9B9117BDDA0800620CE8 /* UIApplication+AppDimensions.h */,
+				182F9B9217BDDA0800620CE8 /* UIApplication+AppDimensions.m */,
+				182F9B9317BDDA0800620CE8 /* UIView+Sizes.h */,
+				182F9B9417BDDA0800620CE8 /* UIView+Sizes.m */,
+				182F9B9517BDDA0800620CE8 /* UIViewController+RNSwipeViewController.h */,
+				182F9B9617BDDA0800620CE8 /* UIViewController+RNSwipeViewController.m */,
+			);
+			path = RNSwipeViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182F9B5717BDD61B00620CE8 /* XFSwiperView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182F9B7B17BDD61C00620CE8 /* Build configuration list for PBXNativeTarget "XFSwiperView" */;
+			buildPhases = (
+				182F9B5417BDD61B00620CE8 /* Sources */,
+				182F9B5517BDD61B00620CE8 /* Frameworks */,
+				182F9B5617BDD61B00620CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XFSwiperView;
+			productName = XFSwiperView;
+			productReference = 182F9B5817BDD61B00620CE8 /* XFSwiperView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182F9B5017BDD61B00620CE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "eShell -- 新风作浪";
+			};
+			buildConfigurationList = 182F9B5317BDD61B00620CE8 /* Build configuration list for PBXProject "XFSwiperView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 182F9B4F17BDD61B00620CE8;
+			productRefGroup = 182F9B5917BDD61B00620CE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182F9B5717BDD61B00620CE8 /* XFSwiperView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182F9B5617BDD61B00620CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182F9B6617BDD61C00620CE8 /* InfoPlist.strings in Resources */,
+				182F9B6E17BDD61C00620CE8 /* Default.png in Resources */,
+				182F9B7017BDD61C00620CE8 /* Default@2x.png in Resources */,
+				182F9B7217BDD61C00620CE8 /* Default-568h@2x.png in Resources */,
+				182F9B7517BDD61C00620CE8 /* MainStoryboard.storyboard in Resources */,
+				18A778CF17BDE3D700FA6FDC /* left@2x.png in Resources */,
+				18A778D117BDE47000FA6FDC /* right@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182F9B5417BDD61B00620CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182F9B6817BDD61C00620CE8 /* main.m in Sources */,
+				182F9B6C17BDD61C00620CE8 /* AppDelegate.m in Sources */,
+				182F9B7817BDD61C00620CE8 /* ViewController.m in Sources */,
+				182F9B8317BDD6A200620CE8 /* LeftViewController.m in Sources */,
+				182F9B8617BDD6B100620CE8 /* RightViewController.m in Sources */,
+				182F9B9717BDDA0800620CE8 /* RNDirectionPanGestureRecognizer.m in Sources */,
+				182F9B9817BDDA0800620CE8 /* RNSwipeViewController.m in Sources */,
+				182F9B9917BDDA0800620CE8 /* UIApplication+AppDimensions.m in Sources */,
+				182F9B9A17BDDA0800620CE8 /* UIView+Sizes.m in Sources */,
+				182F9B9B17BDDA0800620CE8 /* UIViewController+RNSwipeViewController.m in Sources */,
+				182F9BA017BDDE4200620CE8 /* CenterViewController.m in Sources */,
+				18A778D417BDFBFC00FA6FDC /* BottomViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		182F9B6417BDD61C00620CE8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182F9B6517BDD61C00620CE8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		182F9B7317BDD61C00620CE8 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182F9B7417BDD61C00620CE8 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182F9B7917BDD61C00620CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		182F9B7A17BDD61C00620CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182F9B7C17BDD61C00620CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XFSwiperView/XFSwiperView-Prefix.pch";
+				INFOPLIST_FILE = "XFSwiperView/XFSwiperView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		182F9B7D17BDD61C00620CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XFSwiperView/XFSwiperView-Prefix.pch";
+				INFOPLIST_FILE = "XFSwiperView/XFSwiperView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182F9B5317BDD61B00620CE8 /* Build configuration list for PBXProject "XFSwiperView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182F9B7917BDD61C00620CE8 /* Debug */,
+				182F9B7A17BDD61C00620CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182F9B7B17BDD61C00620CE8 /* Build configuration list for PBXNativeTarget "XFSwiperView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182F9B7C17BDD61C00620CE8 /* Debug */,
+				182F9B7D17BDD61C00620CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182F9B5017BDD61B00620CE8 /* Project object */;
+}
